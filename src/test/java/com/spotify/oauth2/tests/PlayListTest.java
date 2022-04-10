@@ -1,4 +1,4 @@
-package com.spotify.oauth2.pojo;
+package com.spotify.oauth2.tests;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
