@@ -90,6 +90,9 @@ public class AparnaTest {
 	    
 	    name = responsePLaylist.getName();
 	    des = responsePLaylist.getDescription();
+	    
+	    System.out.println(" ********************************************************************************************** CreateAPlayList " + name);
+		System.out.println(" ********************************************************************************************** CreateAPlayList " + des);
 		
 //***** set id value to properties file			
 		id = responsePLaylist.getId();		
@@ -110,7 +113,7 @@ public class AparnaTest {
 			//PLaylist requestPlaylist = playlistBuilder("New PlayList" ,"New playlist description", false);
 
 		PLaylist requestPlaylist = playlistBuilder("UPDATED PlayList" ,"UPDATED playlist description", false);
-
+		System.out.println(" ********************************************************************************************** GetAPlayList ");
 			
 			System.out.println(" GET = DataLoader.getInstance().getPlayList_id() **********" + DataLoader.getInstance().getPlayList_id());
 			
@@ -133,8 +136,12 @@ public class AparnaTest {
 //GET TESTING	
 				@Test
 				public void GET_playlist() throws IOException{
+					
 					//https://api.spotify.com/v1/playlists/3kqxMeHgHuXRDtqDijIJGz
 					
+					System.out.println(" ********************************************************************************************** GET_playlist "+name);
+					System.out.println(" ********************************************************************************************** GET_playlist "+des);
+					PLaylist requestPlaylist = playlistBuilder(name ,des, false);
 					
 					
 					Response response  = PlaylistApi.get(DataLoader.getInstance().getPlayList_id());
