@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: com.spotify.oauth2.tests.PlayListTest
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.99 s - in com.spotify.oauth2.tests.PlayListTest
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 4.601 s <<< FAILURE! - in com.spotify.oauth2.tests.PlayListTest
+com.spotify.oauth2.tests.PlayListTest.CreateAPlayList  Time elapsed: 1.497 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at com.spotify.oauth2.tests.PlayListTest.CreateAPlayList(PlayListTest.java:64)
+
+com.spotify.oauth2.tests.PlayListTest.GetAPlayList  Time elapsed: 0.234 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at com.spotify.oauth2.tests.PlayListTest.GetAPlayList(PlayListTest.java:84)
+
+com.spotify.oauth2.tests.PlayListTest.Negative_CreateAPlayList_with_nuppVAluue  Time elapsed: 0.191 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <401>.
+
+	at com.spotify.oauth2.tests.PlayListTest.Negative_CreateAPlayList_with_nuppVAluue(PlayListTest.java:166)
+
+com.spotify.oauth2.tests.PlayListTest.PutAPlayList  Time elapsed: 0.187 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at com.spotify.oauth2.tests.PlayListTest.PutAPlayList(PlayListTest.java:108)
+

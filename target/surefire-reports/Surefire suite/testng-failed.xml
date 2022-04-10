@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.spotify.oauth2.tests.PlayListTest">
+        <methods>
+          <include name="CreateAPlayList"/>
+          <include name="PutAPlayList"/>
+          <include name="Negative_CreateAPlayList_with_nuppVAluue"/>
+          <include name="beforeclass"/>
+          <include name="GetAPlayList"/>
+        </methods>
+      </class> <!-- com.spotify.oauth2.tests.PlayListTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

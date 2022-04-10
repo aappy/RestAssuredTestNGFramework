@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.spotify.oauth2.tests.PlayListTest" time="0.99" tests="0" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.spotify.oauth2.tests.PlayListTest" time="4.601" tests="5" errors="0" skipped="0" failures="4">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/test-classes:/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/classes:/Users/aparnachdhry/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/rest-assured/4.2.0/rest-assured-4.2.0.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/aparnachdhry/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/aparnachdhry/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/aparnachdhry/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/json-path/4.2.0/json-path-4.2.0.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/rest-assured-common/4.2.0/rest-assured-common-4.2.0.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/xml-path/4.2.0/xml-path-4.2.0.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/aparnachdhry/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/aparnachdhry/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/aparnachdhry/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/aparnachdhry/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/aparnachdhry/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/aparnachdhry/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/aparnachdhry/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/aparnachdhry/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/aparnachdhry/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/aparnachdhry/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi/5.0.0/poi-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/aparnachdhry/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/aparnachdhry/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi-ooxml-lite/5.0.0/poi-ooxml-lite-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlbeans/xmlbeans/4.0.0/xmlbeans-4.0.0.jar:/Users/aparnachdhry/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/aparnachdhry/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/aparnachdhry/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/Users/aparnachdhry/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/Users/aparnachdhry/.m2/repository/org/apache/santuario/xmlsec/2.2.1/xmlsec-2.2.1.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.2.1/woodstox-core-5.2.1.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-all/1.13/batik-all-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar:/Users/aparnachdhry/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar:/Users/aparnachdhry/.m2/repository/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-codec/1.13/batik-codec-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar:/Users/aparnachdhry/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/aparnachdhry/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-extension/1.13/batik-extension-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-gui-util/1.13/batik-gui-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-rasterizer-ext/1.13/batik-rasterizer-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-rasterizer/1.13/batik-rasterizer-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-slideshow/1.13/batik-slideshow-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-squiggle-ext/1.13/batik-squiggle-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-squiggle/1.13/batik-squiggle-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgbrowser/1.13/batik-svgbrowser-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svggen/1.13/batik-svggen-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgpp/1.13/batik-svgpp-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgrasterizer/1.13/batik-svgrasterizer-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-swing/1.13/batik-swing-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-transcoder/1.13/batik-transcoder-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-ttf2svg/1.13/batik-ttf2svg-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar:/Users/aparnachdhry/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/aparnachdhry/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/aparnachdhry/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/slf4j-simple/2.0.0-alpha1/slf4j-simple-2.0.0-alpha1.jar:/Users/aparnachdhry/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-testng/2.17.3/allure-testng-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-java-commons/2.17.3/allure-java-commons-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-model/2.17.3/allure-model-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-test-filter/2.17.3/allure-test-filter-2.17.3.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:"/>
+    <property name="java.class.path" value="/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/test-classes:/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/classes:/Users/aparnachdhry/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/aparnachdhry/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/aparnachdhry/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/aparnachdhry/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/aparnachdhry/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/rest-assured/4.2.0/rest-assured-4.2.0.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/aparnachdhry/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/aparnachdhry/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/aparnachdhry/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/json-path/4.2.0/json-path-4.2.0.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/rest-assured-common/4.2.0/rest-assured-common-4.2.0.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/xml-path/4.2.0/xml-path-4.2.0.jar:/Users/aparnachdhry/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/aparnachdhry/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/aparnachdhry/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/aparnachdhry/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/aparnachdhry/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/aparnachdhry/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/aparnachdhry/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/aparnachdhry/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/aparnachdhry/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/aparnachdhry/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi/5.0.0/poi-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/aparnachdhry/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/aparnachdhry/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi-ooxml-lite/5.0.0/poi-ooxml-lite-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlbeans/xmlbeans/4.0.0/xmlbeans-4.0.0.jar:/Users/aparnachdhry/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/aparnachdhry/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/aparnachdhry/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/Users/aparnachdhry/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/Users/aparnachdhry/.m2/repository/org/apache/santuario/xmlsec/2.2.1/xmlsec-2.2.1.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.2.1/woodstox-core-5.2.1.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-all/1.13/batik-all-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar:/Users/aparnachdhry/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar:/Users/aparnachdhry/.m2/repository/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-codec/1.13/batik-codec-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar:/Users/aparnachdhry/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/aparnachdhry/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-extension/1.13/batik-extension-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-gui-util/1.13/batik-gui-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-rasterizer-ext/1.13/batik-rasterizer-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-rasterizer/1.13/batik-rasterizer-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-slideshow/1.13/batik-slideshow-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-squiggle-ext/1.13/batik-squiggle-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-squiggle/1.13/batik-squiggle-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgbrowser/1.13/batik-svgbrowser-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svggen/1.13/batik-svggen-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgpp/1.13/batik-svgpp-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgrasterizer/1.13/batik-svgrasterizer-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-swing/1.13/batik-swing-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-transcoder/1.13/batik-transcoder-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-ttf2svg/1.13/batik-ttf2svg-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar:/Users/aparnachdhry/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/aparnachdhry/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/aparnachdhry/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/slf4j-simple/2.0.0-alpha1/slf4j-simple-2.0.0-alpha1.jar:/Users/aparnachdhry/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-testng/2.17.3/allure-testng-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-java-commons/2.17.3/allure-java-commons-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-model/2.17.3/allure-model-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-test-filter/2.17.3/allure-test-filter-2.17.3.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,9 +17,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/surefire/surefirebooter5632266052978216813.jar /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/surefire 2022-04-08T22-59-47_266-jvmRun1 surefire6876186178532021737tmp surefire_01996394881625445671tmp"/>
+    <property name="sun.java.command" value="/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/surefire/surefirebooter3976158339097869443.jar /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/surefire 2022-04-10T10-22-01_786-jvmRun1 surefire1521484258230813565tmp surefire_05976794739159446573tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="surefire.test.class.path" value="/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/test-classes:/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/classes:/Users/aparnachdhry/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/rest-assured/4.2.0/rest-assured-4.2.0.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/aparnachdhry/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/aparnachdhry/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/aparnachdhry/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/json-path/4.2.0/json-path-4.2.0.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/rest-assured-common/4.2.0/rest-assured-common-4.2.0.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/xml-path/4.2.0/xml-path-4.2.0.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/aparnachdhry/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/aparnachdhry/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/aparnachdhry/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/aparnachdhry/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/aparnachdhry/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/aparnachdhry/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/aparnachdhry/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/aparnachdhry/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/aparnachdhry/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/aparnachdhry/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi/5.0.0/poi-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/aparnachdhry/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/aparnachdhry/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi-ooxml-lite/5.0.0/poi-ooxml-lite-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlbeans/xmlbeans/4.0.0/xmlbeans-4.0.0.jar:/Users/aparnachdhry/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/aparnachdhry/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/aparnachdhry/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/Users/aparnachdhry/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/Users/aparnachdhry/.m2/repository/org/apache/santuario/xmlsec/2.2.1/xmlsec-2.2.1.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.2.1/woodstox-core-5.2.1.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-all/1.13/batik-all-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar:/Users/aparnachdhry/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar:/Users/aparnachdhry/.m2/repository/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-codec/1.13/batik-codec-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar:/Users/aparnachdhry/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/aparnachdhry/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-extension/1.13/batik-extension-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-gui-util/1.13/batik-gui-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-rasterizer-ext/1.13/batik-rasterizer-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-rasterizer/1.13/batik-rasterizer-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-slideshow/1.13/batik-slideshow-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-squiggle-ext/1.13/batik-squiggle-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-squiggle/1.13/batik-squiggle-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgbrowser/1.13/batik-svgbrowser-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svggen/1.13/batik-svggen-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgpp/1.13/batik-svgpp-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgrasterizer/1.13/batik-svgrasterizer-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-swing/1.13/batik-swing-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-transcoder/1.13/batik-transcoder-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-ttf2svg/1.13/batik-ttf2svg-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar:/Users/aparnachdhry/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/aparnachdhry/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/aparnachdhry/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/slf4j-simple/2.0.0-alpha1/slf4j-simple-2.0.0-alpha1.jar:/Users/aparnachdhry/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-testng/2.17.3/allure-testng-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-java-commons/2.17.3/allure-java-commons-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-model/2.17.3/allure-model-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-test-filter/2.17.3/allure-test-filter-2.17.3.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/test-classes:/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/classes:/Users/aparnachdhry/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/aparnachdhry/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/aparnachdhry/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/aparnachdhry/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/aparnachdhry/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/rest-assured/4.2.0/rest-assured-4.2.0.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy/2.5.8/groovy-2.5.8.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.8/groovy-xml-2.5.8.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/aparnachdhry/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/aparnachdhry/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/aparnachdhry/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/json-path/4.2.0/json-path-4.2.0.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/groovy/groovy-json/2.5.8/groovy-json-2.5.8.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/rest-assured-common/4.2.0/rest-assured-common-4.2.0.jar:/Users/aparnachdhry/.m2/repository/io/rest-assured/xml-path/4.2.0/xml-path-4.2.0.jar:/Users/aparnachdhry/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/aparnachdhry/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/aparnachdhry/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/Users/aparnachdhry/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:/Users/aparnachdhry/.m2/repository/javax/activation/activation/1.1.1/activation-1.1.1.jar:/Users/aparnachdhry/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/aparnachdhry/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/aparnachdhry/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/aparnachdhry/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/aparnachdhry/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi/5.0.0/poi-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/aparnachdhry/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/aparnachdhry/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi-ooxml/5.0.0/poi-ooxml-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/apache/poi/poi-ooxml-lite/5.0.0/poi-ooxml-lite-5.0.0.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlbeans/xmlbeans/4.0.0/xmlbeans-4.0.0.jar:/Users/aparnachdhry/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/aparnachdhry/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/aparnachdhry/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/aparnachdhry/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.68/bcpkix-jdk15on-1.68.jar:/Users/aparnachdhry/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar:/Users/aparnachdhry/.m2/repository/org/apache/santuario/xmlsec/2.2.1/xmlsec-2.2.1.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.2.1/woodstox-core-5.2.1.jar:/Users/aparnachdhry/.m2/repository/org/codehaus/woodstox/stax2-api/4.2/stax2-api-4.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-all/1.13/batik-all-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-anim/1.13/batik-anim-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-shared-resources/1.13/batik-shared-resources-1.13.jar:/Users/aparnachdhry/.m2/repository/xml-apis/xml-apis-ext/1.3.04/xml-apis-ext-1.3.04.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-awt-util/1.13/batik-awt-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/xmlgraphics-commons/2.4/xmlgraphics-commons-2.4.jar:/Users/aparnachdhry/.m2/repository/commons-io/commons-io/1.3.1/commons-io-1.3.1.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.13/batik-bridge-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-codec/1.13/batik-codec-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-constants/1.13/batik-constants-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-css/1.13/batik-css-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-dom/1.13/batik-dom-1.13.jar:/Users/aparnachdhry/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/aparnachdhry/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-ext/1.13/batik-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-extension/1.13/batik-extension-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-gui-util/1.13/batik-gui-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-i18n/1.13/batik-i18n-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-parser/1.13/batik-parser-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-rasterizer-ext/1.13/batik-rasterizer-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-rasterizer/1.13/batik-rasterizer-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-script/1.13/batik-script-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-slideshow/1.13/batik-slideshow-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-squiggle-ext/1.13/batik-squiggle-ext-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-squiggle/1.13/batik-squiggle-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svg-dom/1.13/batik-svg-dom-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgbrowser/1.13/batik-svgbrowser-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svggen/1.13/batik-svggen-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgpp/1.13/batik-svgpp-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-svgrasterizer/1.13/batik-svgrasterizer-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-swing/1.13/batik-swing-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-transcoder/1.13/batik-transcoder-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-util/1.13/batik-util-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-ttf2svg/1.13/batik-ttf2svg-1.13.jar:/Users/aparnachdhry/.m2/repository/org/apache/xmlgraphics/batik-xml/1.13/batik-xml-1.13.jar:/Users/aparnachdhry/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/aparnachdhry/.m2/repository/org/apache/pdfbox/pdfbox/2.0.22/pdfbox-2.0.22.jar:/Users/aparnachdhry/.m2/repository/org/apache/pdfbox/fontbox/2.0.22/fontbox-2.0.22.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar:/Users/aparnachdhry/.m2/repository/org/slf4j/slf4j-simple/2.0.0-alpha1/slf4j-simple-2.0.0-alpha1.jar:/Users/aparnachdhry/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-testng/2.17.3/allure-testng-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-java-commons/2.17.3/allure-java-commons-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-model/2.17.3/allure-model-2.17.3.jar:/Users/aparnachdhry/.m2/repository/io/qameta/allure/allure-test-filter/2.17.3/allure-test-filter-2.17.3.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/aparnachdhry/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/aparnachdhry"/>
     <property name="user.language" value="en"/>
@@ -31,8 +31,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/surefire/surefirebooter5632266052978216813.jar:/Users/aparnachdhry/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="surefire.real.class.path" value="/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/target/surefire/surefirebooter3976158339097869443.jar:/Users/aparnachdhry/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
     <property name="sun.boot.class.path" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/resources.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/sunrsasign.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jsse.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jce.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/charsets.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jfr.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/classes"/>
+    <property name="BASE_URI" value="https://api.spotify.com"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="1.8.0_281-b09"/>
@@ -49,6 +50,7 @@
     <property name="java.version" value="1.8.0_281"/>
     <property name="user.dir" value="/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022"/>
     <property name="os.arch" value="x86_64"/>
+    <property name="ACCOUNT_BASE_URI" value="https://accounts.spotify.com"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -61,4 +63,244 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
+  <testcase name="CreateAPlayList" classname="com.spotify.oauth2.tests.PlayListTest" time="1.497">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <401>.
+
+	at com.spotify.oauth2.tests.PlayListTest.CreateAPlayList(PlayListTest.java:64)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/317uyxvqw3wz6ovd5s4vl3sfrige/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCHzpqteBS5GPVHiVqJ-Vgl_3aDw3bxaNJvhgl3ErCqHYTTXe2LXkU0mi7ieWCH_c0C9hOsK7S5DxsQeHoxmyJn5-JcHUYdaL_k2RMef1o4CGlA6yZy4w9GJswuRXGKAyjOmzKbMJ0UBxPeRveJQExrqq421XhHoUCrNSQpdBDlb_2YsrmkuhMUXM0feBQuJDjwpp4caduN5tF_gyszCwkgOfDqE_Tl0yz9WLPqXPI9XUJu
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Yohan",
+    "description": "Yohan description",
+    "public": false
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="The access token expired"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Sun, 10 Apr 2022 17:22:05 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 401,
+        "message": "The access token expired"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="GetAPlayList" classname="com.spotify.oauth2.tests.PlayListTest" time="0.234">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at com.spotify.oauth2.tests.PlayListTest.GetAPlayList(PlayListTest.java:84)
+]]></failure>
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCHzpqteBS5GPVHiVqJ-Vgl_3aDw3bxaNJvhgl3ErCqHYTTXe2LXkU0mi7ieWCH_c0C9hOsK7S5DxsQeHoxmyJn5-JcHUYdaL_k2RMef1o4CGlA6yZy4w9GJswuRXGKAyjOmzKbMJ0UBxPeRveJQExrqq421XhHoUCrNSQpdBDlb_2YsrmkuhMUXM0feBQuJDjwpp4caduN5tF_gyszCwkgOfDqE_Tl0yz9WLPqXPI9XUJu
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="The access token expired"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Sun, 10 Apr 2022 17:22:05 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 401,
+        "message": "The access token expired"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Negative_CreateAPlayList_with_ExpiredToken" classname="com.spotify.oauth2.tests.PlayListTest" time="0.744">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/317uyxvqw3wz6ovd5s4vl3sfrige/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer sdfsdfsfsfs
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+  "name": "ASASAS",
+  "description": "ASASAS description",
+  "public": false
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Sun, 10 Apr 2022 17:22:06 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 401,
+        "message": "Invalid access token"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Negative_CreateAPlayList_with_nuppVAluue" classname="com.spotify.oauth2.tests.PlayListTest" time="0.191">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <401>.
+
+	at com.spotify.oauth2.tests.PlayListTest.Negative_CreateAPlayList_with_nuppVAluue(PlayListTest.java:166)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/317uyxvqw3wz6ovd5s4vl3sfrige/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCHzpqteBS5GPVHiVqJ-Vgl_3aDw3bxaNJvhgl3ErCqHYTTXe2LXkU0mi7ieWCH_c0C9hOsK7S5DxsQeHoxmyJn5-JcHUYdaL_k2RMef1o4CGlA6yZy4w9GJswuRXGKAyjOmzKbMJ0UBxPeRveJQExrqq421XhHoUCrNSQpdBDlb_2YsrmkuhMUXM0feBQuJDjwpp4caduN5tF_gyszCwkgOfDqE_Tl0yz9WLPqXPI9XUJu
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "",
+    "description": "ASASAS description",
+    "public": false
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="The access token expired"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Sun, 10 Apr 2022 17:22:07 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 401,
+        "message": "The access token expired"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="PutAPlayList" classname="com.spotify.oauth2.tests.PlayListTest" time="0.187">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at com.spotify.oauth2.tests.PlayListTest.PutAPlayList(PlayListTest.java:108)
+]]></failure>
+    <system-out><![CDATA[created request id *****
+Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCHzpqteBS5GPVHiVqJ-Vgl_3aDw3bxaNJvhgl3ErCqHYTTXe2LXkU0mi7ieWCH_c0C9hOsK7S5DxsQeHoxmyJn5-JcHUYdaL_k2RMef1o4CGlA6yZy4w9GJswuRXGKAyjOmzKbMJ0UBxPeRveJQExrqq421XhHoUCrNSQpdBDlb_2YsrmkuhMUXM0feBQuJDjwpp4caduN5tF_gyszCwkgOfDqE_Tl0yz9WLPqXPI9XUJu
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Arin",
+    "description": "Arin description",
+    "public": false
+}
+HTTP/1.1 401 Unauthorized
+www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="The access token expired"
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-type: application/json
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Sun, 10 Apr 2022 17:22:06 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: clear
+Transfer-Encoding: chunked
+
+{
+    "error": {
+        "status": 401,
+        "message": "The access token expired"
+    }
+}
+]]></system-out>
+  </testcase>
 </testsuite>

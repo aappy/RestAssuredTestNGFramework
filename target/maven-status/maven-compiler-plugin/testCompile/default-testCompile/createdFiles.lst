@@ -12,7 +12,6 @@ com/spotify/oauth2/api/Route.class
 com/spotify/oauth2/pojo/ExternalUrls__1.class
 com/spotify/oauth2/api/applicationApi/PlaylistApi.class
 com/spotify/oauth2/pojo/Error.class
-com/spotify/oauth2/tests/PlayListTest.class
 com/spotify/oauth2/api/TokenManager.class
 com/spotify/oauth2/pojo/InnerError.class
 com/spotify/oauth2/utils/DataLoader.class

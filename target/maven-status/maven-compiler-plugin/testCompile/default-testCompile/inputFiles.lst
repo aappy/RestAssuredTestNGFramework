@@ -1,6 +1,8 @@
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/pojo/InnerError.java
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/api/applicationApi/PlaylistApi.java
+/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/utils/FakersUtils.java
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/pojo/PLaylist.java
+/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/tests/PlayList_automation.java
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/api/SpecBuilder.java
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/pojo/ExternalUrls.java
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/pojo/Followers.java
@@ -13,6 +15,5 @@
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/api/TokenManager.java
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/pojo/Error.java
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/utils/DataLoader.java
-/Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/tests/PlayListTest.java
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/api/Route.java
 /Users/aparnachdhry/Rest_eclipseWorkplace/RestAssured_proj_om_Framework_2022/src/test/java/com/spotify/oauth2/utils/ConfigLoader.java
