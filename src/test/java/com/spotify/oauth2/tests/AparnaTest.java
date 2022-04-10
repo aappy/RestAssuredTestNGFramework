@@ -12,7 +12,7 @@ import com.spotify.oauth2.utils.FakersUtils;
 import com.spotify.oauth2.api.applicationApi.PlaylistApi;
 import com.spotify.oauth2.pojo.Error;
 
-public class PlayListTest2 {		
+public class AparnaTest {		
 //	ResponseSpecification responseSpecification;
 //	RequestSpecification requestSpecification;
 
