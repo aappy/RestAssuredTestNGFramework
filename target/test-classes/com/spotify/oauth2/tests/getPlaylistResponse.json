@@ -1,0 +1,43 @@
+{
+    "collaborative": false,
+    "description": "Yohan description",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/3CfgiGWffea0FtsJrbpBgH"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/3CfgiGWffea0FtsJrbpBgH",
+    "id": "3CfgiGWffea0FtsJrbpBgH",
+    "images": [
+        
+    ],
+    "name": "Yohan",
+    "owner": {
+        "display_name": "appy",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/317uyxvqw3wz6ovd5s4vl3sfrige"
+        },
+        "href": "https://api.spotify.com/v1/users/317uyxvqw3wz6ovd5s4vl3sfrige",
+        "id": "317uyxvqw3wz6ovd5s4vl3sfrige",
+        "type": "user",
+        "uri": "spotify:user:317uyxvqw3wz6ovd5s4vl3sfrige"
+    },
+    "primary_color": null,
+    "public": false,
+    "snapshot_id": "Miw5Mzk5ZTM5NDVkNTRjM2I2Y2I1YWMwOTg4NTViYmFlNTlmYTA4MzU5",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/3CfgiGWffea0FtsJrbpBgH/tracks?offset=0&limit=100",
+        "items": [
+            
+        ],
+        "limit": 100,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3CfgiGWffea0FtsJrbpBgH"
+}
