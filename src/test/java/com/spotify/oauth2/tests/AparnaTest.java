@@ -37,6 +37,8 @@ public class AparnaTest {
 	
 	JsonPath jsonpath; 
 	String id = "";
+	String name ;
+	String des;
 	
 	public PLaylist playlistBuilder(String name , String description, boolean Public) {
 		
@@ -85,6 +87,9 @@ public class AparnaTest {
 	   
 		PLaylist responsePLaylist = response.as(PLaylist.class);	
 	    assertPlayListEqual(responsePLaylist , requestPlaylist);
+	    
+	    name = responsePLaylist.getName();
+	    des = responsePLaylist.getDescription();
 		
 //***** set id value to properties file			
 		id = responsePLaylist.getId();		
@@ -122,6 +127,25 @@ public class AparnaTest {
 			//assertThat(responsePLaylist.getDescription() , equalTo(requestPlaylist.getDescription()));
 			//assertThat(responsePLaylist.getPublic() , equalTo(requestPlaylist.getPublic()));
 		}
+		
+		
+		
+//GET TESTING	
+				@Test
+				public void GET_playlist() throws IOException{
+					//https://api.spotify.com/v1/playlists/3kqxMeHgHuXRDtqDijIJGz
+					
+					
+					
+					Response response  = PlaylistApi.get(DataLoader.getInstance().getPlayList_id());
+					
+					assertThat(response.statusCode(), equalTo(200));	
+					
+					PLaylist responsePLaylist = response.as(PLaylist.class);
+					//assertPlayListEqual(responsePLaylist, requestPlaylist);
+					
+				}
+	
 		
 //UPDATE PLAYLIST POGO
 		@Test
