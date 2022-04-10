@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4500" started-at="2022-04-09T16:51:29Z" finished-at="2022-04-09T16:51:33Z">
+  <suite name="Default suite" duration-ms="4737" started-at="2022-04-10T17:48:17Z" finished-at="2022-04-10T17:48:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4500" started-at="2022-04-09T16:51:29Z" finished-at="2022-04-09T16:51:33Z">
-      <class name="com.spotify.oauth2.tests.PlayListTest2">
-        <test-method status="PASS" signature="CreateAPlayList()[pri:0, instance:com.spotify.oauth2.tests.PlayListTest2@f14e5bf]" name="CreateAPlayList" duration-ms="3315" started-at="2022-04-09T16:51:29Z" finished-at="2022-04-09T16:51:32Z">
+    <test name="Default test" duration-ms="4737" started-at="2022-04-10T17:48:17Z" finished-at="2022-04-10T17:48:22Z">
+      <class name="com.spotify.oauth2.tests.AparnaTest">
+        <test-method status="PASS" signature="CreateAPlayList()[pri:0, instance:com.spotify.oauth2.tests.AparnaTest@5f574cc2]" name="CreateAPlayList" duration-ms="3549" started-at="2022-04-10T17:48:17Z" finished-at="2022-04-10T17:48:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateAPlayList -->
-        <test-method status="FAIL" signature="GetAPlayList()[pri:0, instance:com.spotify.oauth2.tests.PlayListTest2@f14e5bf]" name="GetAPlayList" duration-ms="355" started-at="2022-04-09T16:51:32Z" finished-at="2022-04-09T16:51:33Z">
+        <test-method status="FAIL" signature="GetAPlayList()[pri:0, instance:com.spotify.oauth2.tests.AparnaTest@5f574cc2]" name="GetAPlayList" duration-ms="295" started-at="2022-04-10T17:48:21Z" finished-at="2022-04-10T17:48:21Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[
-Expected: "Description -&+##&++#4r#8#q&##&6#+ K#&+## c__# _9em H # jj &+__CF0&   +"
-     but: was "Description -&amp;+##&amp;++#4r#8#q&amp;##&amp;6#+ K#&amp;+## c__# _9em H # jj &amp;+__CF0&amp;   +"]]>
+Expected: "UPDATED PlayList"
+     but: was "Playlisti1,Jr,v- 9"]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
-Expected: "Description -&+##&++#4r#8#q&##&6#+ K#&+## c__# _9em H # jj &+__CF0&   +"
-     but: was "Description -&amp;+##&amp;++#4r#8#q&amp;##&amp;6#+ K#&amp;+## c__# _9em H # jj &amp;+__CF0&amp;   +"
+Expected: "UPDATED PlayList"
+     but: was "Playlisti1,Jr,v- 9"
 at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
 at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-at com.spotify.oauth2.tests.PlayListTest2.assertPlayListEqual(PlayListTest2.java:54)
-at com.spotify.oauth2.tests.PlayListTest2.GetAPlayList(PlayListTest2.java:123)
+at com.spotify.oauth2.tests.AparnaTest.assertPlayListEqual(AparnaTest.java:51)
+at com.spotify.oauth2.tests.AparnaTest.GetAPlayList(AparnaTest.java:119)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,19 +57,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetAPlayList -->
-        <test-method status="PASS" signature="Negative_CreateAPlayList_with_ExpiredToken()[pri:0, instance:com.spotify.oauth2.tests.PlayListTest2@f14e5bf]" name="Negative_CreateAPlayList_with_ExpiredToken" duration-ms="211" started-at="2022-04-09T16:51:33Z" finished-at="2022-04-09T16:51:33Z">
+        <test-method status="PASS" signature="Negative_CreateAPlayList_with_ExpiredToken()[pri:0, instance:com.spotify.oauth2.tests.AparnaTest@5f574cc2]" name="Negative_CreateAPlayList_with_ExpiredToken" duration-ms="200" started-at="2022-04-10T17:48:21Z" finished-at="2022-04-10T17:48:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Negative_CreateAPlayList_with_ExpiredToken -->
-        <test-method status="PASS" signature="Negative_CreateAPlayList_with_nullName()[pri:0, instance:com.spotify.oauth2.tests.PlayListTest2@f14e5bf]" name="Negative_CreateAPlayList_with_nullName" duration-ms="200" started-at="2022-04-09T16:51:33Z" finished-at="2022-04-09T16:51:33Z">
+        <test-method status="PASS" signature="Negative_CreateAPlayList_with_nullName()[pri:0, instance:com.spotify.oauth2.tests.AparnaTest@5f574cc2]" name="Negative_CreateAPlayList_with_nullName" duration-ms="202" started-at="2022-04-10T17:48:21Z" finished-at="2022-04-10T17:48:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Negative_CreateAPlayList_with_nullName -->
-        <test-method status="PASS" signature="PutAPlayList()[pri:0, instance:com.spotify.oauth2.tests.PlayListTest2@f14e5bf]" name="PutAPlayList" duration-ms="283" started-at="2022-04-09T16:51:33Z" finished-at="2022-04-09T16:51:33Z">
+        <test-method status="PASS" signature="PutAPlayList()[pri:0, instance:com.spotify.oauth2.tests.AparnaTest@5f574cc2]" name="PutAPlayList" duration-ms="354" started-at="2022-04-10T17:48:21Z" finished-at="2022-04-10T17:48:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PutAPlayList -->
-      </class> <!-- com.spotify.oauth2.tests.PlayListTest2 -->
+      </class> <!-- com.spotify.oauth2.tests.AparnaTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

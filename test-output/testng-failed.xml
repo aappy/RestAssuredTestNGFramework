@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.spotify.oauth2.tests.PlayListTest2">
+      <class name="com.spotify.oauth2.tests.AparnaTest">
         <methods>
           <include name="GetAPlayList"/>
         </methods>
-      </class> <!-- com.spotify.oauth2.tests.PlayListTest2 -->
+      </class> <!-- com.spotify.oauth2.tests.AparnaTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
