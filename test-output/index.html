@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -117,6 +117,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.spotify.oauth2.tests.AparnaTest" hash-for-method="CreateAPlayList">CreateAPlayList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.spotify.oauth2.tests.AparnaTest" hash-for-method="GET_playlist">GET_playlist</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -159,11 +164,11 @@
                   <span class="method-name">GetAPlayList</span>
                   <div class="stack-trace">java.lang.AssertionError: 
 Expected: &quot;UPDATED PlayList&quot;
-     but: was &quot;Playlist-6 y_80,e0&quot;
+     but: was &quot;Playlisto qRr__ _,&quot;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at com.spotify.oauth2.tests.AparnaTest.assertPlayListEqual(AparnaTest.java:51)
-	at com.spotify.oauth2.tests.AparnaTest.GetAPlayList(AparnaTest.java:119)
+	at com.spotify.oauth2.tests.AparnaTest.assertPlayListEqual(AparnaTest.java:52)
+	at com.spotify.oauth2.tests.AparnaTest.GetAPlayList(AparnaTest.java:134)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -210,6 +215,13 @@ Expected: &quot;UPDATED PlayList&quot;
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="GET_playlist">
+                  </a> <!-- GET_playlist -->
+                  <span class="method-name">GET_playlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="Negative_CreateAPlayList_with_ExpiredToken">
                   </a> <!-- Negative_CreateAPlayList_with_ExpiredToken -->
                   <span class="method-name">Negative_CreateAPlayList_with_ExpiredToken</span>
@@ -234,7 +246,7 @@ Expected: &quot;UPDATED PlayList&quot;
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/rg/h4wwk10n2m36gkb9q_0hf5nm0000gn/T/testng-eclipse-539388145/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/rg/h4wwk10n2m36gkb9q_0hf5nm0000gn/T/testng-eclipse-431136834/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -283,27 +295,31 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CreateAPlayList')
 data.setCell(0, 2, 'com.spotify.oauth2.tests.AparnaTest')
-data.setCell(0, 3, 3276);
+data.setCell(0, 3, 3422);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'PutAPlayList')
 data.setCell(1, 2, 'com.spotify.oauth2.tests.AparnaTest')
-data.setCell(1, 3, 305);
+data.setCell(1, 3, 279);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'GetAPlayList')
+data.setCell(2, 1, 'GET_playlist')
 data.setCell(2, 2, 'com.spotify.oauth2.tests.AparnaTest')
-data.setCell(2, 3, 269);
+data.setCell(2, 3, 273);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Negative_CreateAPlayList_with_ExpiredToken')
 data.setCell(3, 2, 'com.spotify.oauth2.tests.AparnaTest')
-data.setCell(3, 3, 210);
+data.setCell(3, 3, 270);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Negative_CreateAPlayList_with_nullName')
+data.setCell(4, 1, 'GetAPlayList')
 data.setCell(4, 2, 'com.spotify.oauth2.tests.AparnaTest')
-data.setCell(4, 3, 202);
+data.setCell(4, 3, 239);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Negative_CreateAPlayList_with_nullName')
+data.setCell(5, 2, 'com.spotify.oauth2.tests.AparnaTest')
+data.setCell(5, 3, 197);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -340,22 +356,26 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">GET_playlist</span>
+                <span class="method-start">3496 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">GetAPlayList</span>
-                <span class="method-start">3349 ms</span>
+                <span class="method-start">3771 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Negative_CreateAPlayList_with_ExpiredToken</span>
-                <span class="method-start">3623 ms</span>
+                <span class="method-start">4014 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Negative_CreateAPlayList_with_nullName</span>
-                <span class="method-start">3834 ms</span>
+                <span class="method-start">4285 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">PutAPlayList</span>
-                <span class="method-start">4038 ms</span>
+                <span class="method-start">4483 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
